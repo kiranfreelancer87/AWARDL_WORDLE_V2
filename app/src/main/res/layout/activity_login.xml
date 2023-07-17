@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        tools:context=".LoginActivity"
+        android:id="@+id/parent">
+
+        <ImageView
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_125sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/mptfawardl" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gothamlight"
+                android:text="Enter your"
+                android:textSize="@dimen/_15ssp" />
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothambold"
+                    android:text="First"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothamlight"
+                    android:textSize="@dimen/_15ssp"
+                    android:text=" &amp; " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothambold"
+                    android:text="Last Name "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15ssp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="and  "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothambold"
+                    android:text="Email "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15ssp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothamlight"
+                    android:text="to Play!"
+                    android:textSize="@dimen/_15ssp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etName"
+            android:maxLength="25"
+            android:gravity="center"
+            android:maxLines="1"
+            android:inputType="text"
+            android:background="@drawable/rounded_bg_nameinput"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:minWidth="@dimen/_150sdp"
+            android:minHeight="@dimen/_24sdp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="First &amp; Last Name"
+            android:fontFamily="@font/gothamlight"
+            />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:inputType="textEmailAddress"
+            android:gravity="center"
+            android:maxLines="1"
+            android:background="@drawable/rounded_bg_nameinput"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:minWidth="@dimen/_150sdp"
+            android:minHeight="@dimen/_24sdp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:fontFamily="@font/gothamlight"
+            />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:text="START"
+            android:textSize="@dimen/_8ssp"
+            android:backgroundTint="@android:color/holo_blue_bright"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_26sdp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivCustomLogo"
+        android:layout_gravity="bottom"
+        android:src="@drawable/custom_made_by_piddlepops"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_36sdp"/>
+
+</FrameLayout>

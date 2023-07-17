@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_42sdp"
+    android:layout_height="@dimen/_42sdp"
+    android:layout_gravity="center"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="@dimen/_2sdp"
+        android:background="@drawable/rounded_corner_letterview"
+        android:layout_width="@dimen/_38sdp"
+        android:layout_height="@dimen/_38sdp">
+        <TextView
+            android:id="@+id/tvLetter"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/_20ssp"
+            android:fontFamily="@font/gothambold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>
