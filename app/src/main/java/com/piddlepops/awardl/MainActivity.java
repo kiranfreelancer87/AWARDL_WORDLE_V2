@@ -691,7 +691,7 @@ public class MainActivity extends AppCompatActivity {
                     //Snackbar.make(binding.getRoot(), "" + e.getMessage(), Snackbar.LENGTH_SHORT).show();
                 }
             }
-
+            
             @Override
             public void onFailure(Call<ResponseBody> call, Throwable t) {
                 //Snackbar.make(binding.getRoot(), "" + t.getMessage(), Snackbar.LENGTH_SHORT).show();
